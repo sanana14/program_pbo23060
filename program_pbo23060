@@ -1,0 +1,10 @@
+from modul import*
+
+print("modul,menghitung pemasukan dan pengeluaran")
+pemasukan=int(input("pemasukan:"))
+pengeluaran=int(input("pengeluaran:"))
+
+print("hasil pemasukan+pengeluaran:",tambah (pemasukan,pengeluaran))
+print("hasil pemasukan*pengeluaran:",kali (pemasukan,pengeluaran))
+print("hasil pemasukan-pengeluaran:",kurang (pemasukan,pengeluaran))
+print("hasil pemasukan/pengeluaran:",bagi(pemasukan,pengeluaran))
